@@ -10,3 +10,34 @@ For the rider to get on the rollercoaster he/she needs to be
 height => 42
 age > 10   */
 
+/*Step 1: Review and edit your variables as needed
+Are your variables accurate? Update them if need be.
+height > 52
+age > 10 */
+
+/*Step 2: Create a conditional where:
+If the rider's height is greater than 52, the console.log should say "Get on that ride, kiddo!".
+Otherwise, console.log should say "Sorry kiddo. Maybe next year." */
+function RightTORide (height){
+if(height>52) {
+    console.log("Get on that ride, kiddo!")
+} else {
+    console.log("Sorry kiddo. Maybe next year.")
+}
+}
+/*Stretch Feature 1: require both height and age. */
+function BothTORide (height,age){
+    if(height>52 && age>10){
+        console.log("you are old enouh ! and tall enouh! Get on that ride, kiddo!")
+     } else {
+        console.log("Sorry kiddo. Maybe next year.") 
+     }
+}
+/*Stretch Feature 2: require either height or age requirements must be met. */
+function OneOfwhichTORide (height,age){
+    if(height>52 || age > 10){
+        console.log("you either old enouh! or tall enouh! Get on that ride, kiddo!")
+    } else {
+        console.log("Sorry kiddo. Maybe next year.") 
+    }
+}
